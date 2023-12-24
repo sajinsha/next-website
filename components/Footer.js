@@ -76,7 +76,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
+      <div class="px-4 mt-4 mb-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
         <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">Stay connected</h5>
         <div class="flex sm:justify-center xl:justify-start">
           <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-yellow-600 hover:border-yellow-600">
