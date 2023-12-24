@@ -7,7 +7,7 @@ const HeroSection = () => {
       <Image className="banner-img-1" src={BannerImage} alt="Banner Image" />
       <div className="hero-content text-center mt-4">
         <div className="container items-center mb-10">
-          <h1 className="text-3xl font-bold mb-6 md:mb-8 lg:mb-10 whitespace-wrap">
+          <h1 className="text-2xl font-bold mb-6 md:mb-8 lg:mb-10 whitespace-wrap">
             Thinking of selling your house?
           </h1>
           <div className="text-center ml-12">
@@ -15,7 +15,7 @@ const HeroSection = () => {
               Get an instant estimate of your home's value. You can quickly
               determine the estimated value of
             </p>
-            <p className=" text-slate-700 whitespace-nowrap">
+            <p className=" text-slate-700 whitespace-wrap">
               Your home by answering a few questions.
             </p>
           </div>
