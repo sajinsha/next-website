@@ -10,7 +10,7 @@ const Categories = () => {
     <>
       <section class="text-gray-600 body-font bg-white-500">
         <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div class="flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
               <div>
                 <Image src={Cat4} alt="CatOne" height={275} width={261} />
