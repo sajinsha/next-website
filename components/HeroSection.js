@@ -3,12 +3,11 @@ import BannerImage from "./BannerImage.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="hero bg-base-200 container-fluid">
-      <Image className="banner-img-1" src={BannerImage} alt="Banner Image" />
-
       <div className="hero-content text-center mt-8">
+      <div className="hero bg-base-200 container-fluid">
+      <Image className="banner-img-1" src={BannerImage} alt="Banner Image" />
         <div className="container items-center mb-10">
-          <h1 className="text-3xl font-bold mb-6 md:mb-8 lg:mb-10 whitespace-nowrap">
+          <h1 className="text-3xl font-bold mb-6 md:mb-8 lg:mb-10 whitespace-wrap">
             Thinking of selling your house?
           </h1>
           <div className="text-center ml-12">
