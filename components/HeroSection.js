@@ -3,8 +3,8 @@ import BannerImage from "./BannerImage.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="hero bg-base-200 ">
-      <Image src={BannerImage} alt="Banner Image" />
+    <div className="hero bg-base-200 container-fluid">
+      <Image className="banner-img-1" src={BannerImage} alt="Banner Image" />
 
       <div className="hero-content text-center mt-8">
         <div className="items-center ml-10 mb-10">
