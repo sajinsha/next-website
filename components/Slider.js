@@ -17,7 +17,7 @@ const Slider = () => {
         Featured On
       </h1>
 
-      <div className="flex items-center justify-center py-3">
+      <div className="flex items-center justify-center py-5 flex-wrap sm:m-3 mx-3 mb-1 -mt-3 md:space-y-5 space-y-6">
         <Image src={Vector7} alt="Vector6" className="h-10 mx-10" />
         <Image
           src={Image11}
