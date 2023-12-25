@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import Slider from "@/components/Slider";
 import Testimonial from "@/components/Testimonial";
+import Contents from "@/components/Contents";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header/>
       <HeroSection/>
       <Slider/>
+      <Contents/>
       <Categories/>
       <Testimonial/>
       <Footer/>

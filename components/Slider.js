@@ -8,16 +8,16 @@ import Image11 from "./image11.png";
 import Image12 from "./image12.png";
 import Vector6 from "./VectorRight.png";
 import Vector7 from "./Vector7.png";
+import Image13 from "./image-2.webp"
 
 const Slider = () => {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-white dark:bg-gray-800">
     <div className="container mx-auto flex flex-col items-center justify-center   py-5 my-10text-center">
-      <h1 className="text-center text-2xl font-barlow text-black font-bold mb-10 py-3">
-        Featured On
-      </h1>
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white"><span class="text-blue-600 dark:text-blue-500">Featured </span>On<span class="text-blue-600 dark:text-blue-500">.</span></h1>
+        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-500">Listings of featured Real Estate properties in Canada</p>
 
-      <div className="flex items-center justify-center py-3">
+      <div className="flex items-center justify-center py-5 flex-wrap sm:m-3 mx-3 mb-1 -mt-3 md:space-y-5 space-y-6">
         <Image src={Vector7} alt="Vector6" className="h-10 mx-10" />
         <Image
           src={Image11}
@@ -48,6 +48,7 @@ const Slider = () => {
         <Image src={Vector6} alt="Vector 7" className="h-10 mx-10" />
       </div>
     </div>
+    <Image src={Image13} alt="adv" className="max-sm:h-20 w-auto" />
     </div>
   );
 };
