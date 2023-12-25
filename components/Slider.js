@@ -15,7 +15,7 @@ const Slider = () => {
     <div className="bg-white dark:bg-gray-800">
     <div className="container mx-auto flex flex-col items-center justify-center   py-5 my-10text-center">
     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white"><span class="text-blue-600 dark:text-blue-500">Featured </span>On<span class="text-blue-600 dark:text-blue-500">.</span></h1>
-        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-500">Listings of featured Real Estate properties in Canada</p>
+        <p class="text-lg text-center font-normal text-gray-500 lg:text-xl dark:text-gray-500">Listings of featured Real Estate properties in Canada</p>
 
       <div className="flex items-center justify-center py-5 flex-wrap sm:m-3 mx-3 mb-1 -mt-3 md:space-y-5 space-y-6">
         <Image src={Vector7} alt="Vector6" className="h-10 mx-10" />
