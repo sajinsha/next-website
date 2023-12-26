@@ -4,6 +4,18 @@ import Image_1 from './Photo2.webp';
 import Image_2 from './Photo4.webp';
 import Image_3 from './Photo5.webp';
 
+const getStatusColor = (status) => {
+    switch (status) {
+      case 'For Sale':
+        return 'green';
+      case 'Booked':
+        return 'orange'; // You can replace 'orange' with the actual color you want
+      case 'Sold':
+        return 'red';
+      default:
+        return 'gray'; // A default color for unknown status
+  }
+};
 const propertyData = [
   {
     id: 1,
@@ -71,18 +83,6 @@ const propertyData = [
   },
   // Add more property data objects as needed
 ];
-const getStatusColor = (status) => {
-    switch (status) {
-      case 'For Sale':
-        return 'green';
-      case 'Booked':
-        return 'orange'; // You can replace 'orange' with the actual color you want
-      case 'Sold':
-        return 'red';
-      default:
-        return 'gray'; // A default color for unknown status
-    }
-  };
   
 const Contents = () => {
     return (
