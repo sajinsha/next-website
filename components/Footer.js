@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-  <footer class="footer-1 bg-white-500 ">
-  <div class="inline-flex items-center justify-center w-full">
-    <hr class="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"/>
-  </div>
-  <div class="container mx-auto px-4 py-8 sm:py-10">
+    <footer className="footer-1 bg-white-500">
+      <div className="inline-flex items-center justify-center w-full">
+        <hr className="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700" />
+      </div>
+      <div className="container mx-auto px-4 py-8 sm:py-10">
     <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
       <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
         <h5 class="text-xl font-bold mb-6">Product</h5>
@@ -102,9 +102,9 @@ const Footer = () => {
     </div>    
   </div>
   <div className="body-font bg-gray-700 p-5">
-    <p className="text-center text-gray-200 dark:text-gray-300">Copyright © <span class="text-blue-700 hover:text-blue-200">2023</span> The Canadian Home Realty Inc.</p>
-  </div>
-  </footer>
+        <p className="text-center text-gray-200 dark:text-gray-300">Copyright © <span className="text-blue-700 hover:text-blue-200">2023</span> The Canadian Home Realty Inc.</p>
+      </div>
+    </footer>
   );
 };
 
