@@ -24,7 +24,7 @@ const propertyData = [
   {
     id: 3,
     image: Image_3,
-    category: '3-5 | Single Family',
+    category: '5-6 | Single Family',
     status: 'For Sale',
     description: 'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy...',
     price: '799.99 /m',
@@ -40,7 +40,7 @@ const propertyData = [
   {
     id: 5,
     image: Image_2,
-    category: '3-5 | Single Family',
+    category: '3-4 | Single Family',
     status: 'For Sale',
     description: 'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy...',
     price: '529.99 /m',
@@ -48,7 +48,7 @@ const propertyData = [
   {
     id: 6,
     image: Image_3,
-    category: '3-5 | Single Family',
+    category: '5-6 | Single Family',
     status: 'Booked',
     description: 'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy...',
     price: '799.99 /m',
