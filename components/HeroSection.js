@@ -7,14 +7,15 @@ const HeroSection = () => {
       <div className="hero-content text-center mt-4">
         <div className="container items-center mb-10">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white-700 md:text-4xl lg:text-5xl dark:text-gray-700">
-          <span class="text-blue-600 dark:text-blue-500">Thinking</span> of selling your House<span class="text-blue-600 dark:text-blue-500">?</span>
+            <span className="text-blue-600 dark:text-blue-500">Thinking</span> of selling your House
+            <span className="text-blue-600 dark:text-blue-500">?</span>
           </h1>
           <div className="text-center hero-text">
-            <p className=" text-slate-700 whitespace-wrap">
+            <p className="text-slate-700 whitespace-wrap">
               Get an instant estimate of your home's value. You can quickly
               determine the estimated value of
             </p>
-            <p className=" text-slate-700 whitespace-wrap">
+            <p className="text-slate-700 whitespace-wrap">
               your home by answering a few questions.
             </p>
           </div>
