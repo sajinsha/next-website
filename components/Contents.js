@@ -78,7 +78,9 @@ const Contents = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="17.184" height="11.456" viewBox="0 0 17.184 11.456"><path id="Icon_ionic-md-bed" data-name="Icon ionic-md-bed" d="M9.185,15.108A2.292,2.292,0,1,0,6.84,12.817,2.316,2.316,0,0,0,9.185,15.108Zm9.375-4.582H12.309v5.348H6.062V9H4.5V20.456H6.062V18.165H20.122v2.291h1.562V13.582A3.09,3.09,0,0,0,18.561,10.526Z" transform="translate(-4.5 -9)" fill="#fff"></path></svg>
                     </div>
                     <h2 className="text-white dark:text-white text-base font-medium mt-3">{property.category}</h2>
-                    <span className={`bg-${property.status === 'For Sale' ? 'green' : 'red'}-100 text-${property.status === 'For Sale' ? 'green' : 'red'}-800 text-xs font-medium me-2 px-2.5 py-0.5 ml-1 mt-3 rounded-full dark:bg-${property.status === 'For Sale' ? 'green' : 'red'}-900 dark:text-${property.status === 'For Sale' ? 'green' : 'red'}-300`}>{property.status}</span>
+                    <span className={`bg-${property.status === 'For Sale' ? 'green' : 'red'}-100 text-${property.status === 'For Sale' ? 'green' : 'red'}-800 text-xs font-medium me-2 px-2.5 py-0.5 ml-1 mt-3 rounded-full dark:bg-${property.status === 'For Sale' ? 'green' : 'red'}-900 dark:text-${property.status === 'For Sale' ? 'green' : 'red'}-300`}>
+                    {property.status}
+                    </span>
                   </div>
                   <div className="flex flex-col justify-between flex-grow">
                     <p className="leading-relaxed text-base text-white dark:text-gray-300">{property.description}</p>
