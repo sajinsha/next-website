@@ -53,7 +53,7 @@ const Slider = () => {
           <Image src={Vector6} alt="Vector 7" className="h-10 mx-10" />
         </div>
       </div>
-      <Image src={Image13} alt="adv" className="max-h-20 w-auto" />
+      <Image src={Image13} alt="adv" className="max-h-30 w-auto" />
     </div>
   );
 };
