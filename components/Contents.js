@@ -88,8 +88,8 @@ const Contents = () => {
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                   </a>
-                  <a href="#" className={`bg-${property.status === 'For Sale' ? 'green' : 'yellow'}-500 hover:bg-${property.status === 'For Sale' ? 'green' : 'yellow'}-400 text-white px-4 py-2 mt-2 inline-block mt-4 rounded`}>
-                    ${property.price}&nbsp;- <i>Add to Cart</i>
+                  <a href="#" className={`bg-green-500 hover:bg-green-400 text-white px-4 py-2 mt-2 inline-block mt-4 rounded`}>
+                    ${<span className='blur-sm'>property.price</span>}&nbsp;-&nbsp;<i>Add to Cart</i>
                   </a>
                 </div>
               </div>
