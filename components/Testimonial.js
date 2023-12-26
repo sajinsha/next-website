@@ -6,17 +6,14 @@ import UI from "./ui-dev.png";
 const Testimonial = () => {
   return (
     <div className="px-5 py-24">
-      <section class="bg-blue-50 body-font testimonial">
-        <div class="container px-5 py-24 mx-auto">
-          {/* <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
-            The Canadian Home
-          </h1> */}
+      <section className="bg-blue-50 body-font testimonial">
+        <div className="container px-5 py-24 mx-auto">
           <div className='text-center'>
-              <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Testimonials<span class="text-blue-600 dark:text-blue-500">.</span></h1>
-              <p class="text-lg font-normal text-gray-200 lg:text-xl dark:text-gray-300">Quotes from Developers</p>
+            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Testimonials<span className="text-blue-600 dark:text-blue-500">.</span></h1>
+            <p className="text-lg font-normal text-gray-200 lg:text-xl dark:text-gray-300">Quotes from Developers</p>
           </div>
 
-          <div class="flex mt-7 flex-wrap -m-4">
+          <div className="flex mt-7 flex-wrap -m-4">
             <div class="p-4 md:w-1/3 w-full">
               <div class="h-full bg-gray-100 p-8 rounded border border-blue-500 bg-gray-800 text-white dark:text-gray-600 dark:bg-gray-100">
                 <div class="text-center mt-10">
